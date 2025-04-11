@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Raleway";
+src:url(/f/Raleway-MediumItalic.ttf) format(truetype);
+font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/f/Roboto-Regular.ttf) format(truetype); 
+    font-weight:500;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.logo {
+  font-size: 200%;
+  text-decoration: none;
+}
+
+.nav-links,
+.contact-info {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  background-color: rgb(54, 53, 63);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 250%;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  font-size: 130%;
+  background-color: rgb(0, 204, 255);
+  height: 80px;
+  width: 200px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.features ul,
+.portfolio ul,
+.team ul,
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.features li,
+.team li {
+  max-width: 200px;
+  text-align: center;
+}
+
+.features p,
+.team p {
+  color: rgb(99, 99, 99);
+}
+
+.portfolio img,
+.team img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.team {
+  background-color: rgb(219, 219, 219);
+  padding: 40px 0;
+}
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.logo-footer {
+  font-size: 120%;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.logo{
+   font-family: Raleway; 
+   font-weight: 400; 
+     font-size: 26px;
+    }
+   
+   
+.nav-links + a {
+ font-family: Roboto;  
+ font-size: 14px; 
+}
+.hero {
+    font-family: Roboto;
+    font-size: 20px;
+}
+button {
+    font-family: Roboto;
+}
+.features {
+    font-family: Roboto;
+    font-size: 14px;
+}
+.portfolio {
+ font-family: Roboto;
+}
+.team{
+    font-family: Roboto;
+}
+.footer {
+    font-family: Roboto;
+}
