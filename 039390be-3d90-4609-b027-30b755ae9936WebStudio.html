@@ -8,73 +8,89 @@
   </head>
   <body>
     <header class="header">
-      <a class="logo"><b>WebStudio</b></a>
-      <nav>
+      <a class="header__logo"><b>WebStudio</b></a>
+      <nav class="header__nav">
         <ul class="nav-links">
-          <li><a href="#">Студія</a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li class="nav-links__item"><a href="#" class="nav-links__link">Студія</a></li>
+          <li class="nav-links__item"><a href="#" class="nav-links__link">Портфоліо</a></li>
+          <li class="nav-links__item"><a href="#" class="nav-links__link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contact-info">
-        <li><a href="mailto:info@gmail.com">info@gmail.com</a></li>
-        <li><a href="tel:380961111111">+38 096 111 11 11</a></li>
+      <ul class="header__contact-info">
+        <li class="header__contact-item"><a href="mailto:info@gmail.com" class="header__contact-link">info@gmail.com</a></li>
+        <li class="header__contact-item"><a href="tel:380961111111" class="header__contact-link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
       <section class="hero">
-        <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ</h1>
-        <button>Замовити послугу</button>
+        <h1 class="hero__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ</h1>
+        <button class="hero__button">Замовити послугу</button>
       </section>
 
       <section class="features">
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>Ідейні міркування, і навіть початок <br>повсякденної роботи з формування <br>позиції.</p>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="features__item-description">Ідейні міркування, і навіть початок <br>повсякденної роботи з формування <br>позиції.</p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>Завдання організації, особливо рамки<br> і місце навчання кадрів тягне у себе.</p>
+          <li class="features__item">
+            <h3 class="features__item-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="features__item-description">Завдання організації, особливо рамки<br> і місце навчання кадрів тягне у себе.</p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>Так само консультація з широким <br>активом значною мірою зумовлює.</p>
+          <li class="features__item">
+            <h3 class="features__item-title">ПЛАНУВАННЯ</h3>
+            <p class="features__item-description">Так само консультація з широким <br>активом значною мірою зумовлює.</p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>Значимість цих проблем настільки<br> очевидна, що реалізація планових<br> завдань.</p>
+          <li class="features__item">
+            <h3 class="features__item-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="features__item-description">Значимість цих проблем настільки<br> очевидна, що реалізація планових<br> завдань.</p>
           </li>
         </ul>
       </section>
 
       <section class="portfolio">
-        <h3>Чим ми займаємося</h3>
-        <ul>
-          <li><img src="Foto1.jpg" alt="Work 1"/></li>
-          <li><img src="Foto2.jpg" alt="Work 2"/></li>
-          <li><img src="Foto3.jpg" alt="Work 3"/></li>
+        <h3 class="portfolio__title">Чим ми займаємося</h3>
+        <ul class="portfolio__list">
+          <li class="portfolio__item"><img src="Foto1.jpg" alt="Work 1" class="portfolio__image"/></li>
+          <li class="portfolio__item"><img src="Foto2.jpg" alt="Work 2" class="portfolio__image"/></li>
+          <li class="portfolio__item"><img src="Foto3.jpg" alt="Work 3" class="portfolio__image"/></li>
         </ul>
       </section>
 
       <section class="team">
-        <h3>Наша команда</h3>
-        <ul>
-          <li><img src="img (5).jpg" alt="Ігор Дем'яненко"/><h4>Ігор Дем'яненко</h4><p>Product Designer</p></li>
-          <li><img src="img (6).jpg" alt="Ольга Рєпіна"/><h4>Ольга Рєпіна</h4><p>Frontend Developer</p></li>
-          <li><img src="img (7).jpg" alt="Микола Тарасов"/><h4>Микола Тарасов</h4><p>Marketing</p></li>
-          <li><img src="img (8).jpg" alt="Михайло Єрмаков"/><h4>Михайло Єрмаков</h4><p>UI Designer</p></li>
+        <h3 class="team__title">Наша команда</h3>
+        <ul class="team__list">
+          <li class="team__item">
+            <img src="img (5).jpg" alt="Ігор Дем'яненко" class="team__image"/>
+            <h4 class="team__name">Ігор Дем'яненко</h4>
+            <p class="team__role">Product Designer</p>
+          </li>
+          <li class="team__item">
+            <img src="img (6).jpg" alt="Ольга Рєпіна" class="team__image"/>
+            <h4 class="team__name">Ольга Рєпіна</h4>
+            <p class="team__role">Frontend Developer</p>
+          </li>
+          <li class="team__item">
+            <img src="img (7).jpg" alt="Микола Тарасов" class="team__image"/>
+            <h4 class="team__name">Микола Тарасов</h4>
+            <p class="team__role">Marketing</p>
+          </li>
+          <li class="team__item">
+            <img src="img (8).jpg" alt="Михайло Єрмаков" class="team__image"/>
+            <h4 class="team__name">Михайло Єрмаков</h4>
+            <p class="team__role">UI Designer</p>
+          </li>
         </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <ul>
-        <li><a href="#" class="logo-footer">WebStudio</a></li>
-        <li>м. Київ, пр-т Лесі Українки, 26</li>
-        <li>info@devstudio.com</li>
-        <li>+38 096 111 11 11</li>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__logo">WebStudio</a></li>
+        <li class="footer__item">м. Київ, пр-т Лесі Українки, 26</li>
+        <li class="footer__item">info@devstudio.com</li>
+        <li class="footer__item">+38 096 111 11 11</li>
       </ul>
     </footer>
   </body>
